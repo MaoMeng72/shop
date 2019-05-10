@@ -1,0 +1,26 @@
+/* 承诺 */
+#promise{height: 1.3rem;}
+#promise ul{display: flex;justify-content: space-around;padding-top:.3rem;}
+#promise ul li a{display: flex;}
+#promise ul li i{display: block;width: .7rem;height: .7rem;background: url(../images/tz2.png) no-repeat;background-size: .7rem 2.8rem;}
+#promise ul li:nth-child(2) i{background-position: 0 -.7rem;}
+#promise ul li:nth-child(3) i{background-position: 0 -1.4rem;}
+#promise ul li:nth-child(4) i{background-position: 0 -2.1rem;}
+#promise ul li .promise-r{margin-left: .1rem;}
+#promise ul li p{color:#343434;font:700 .24rem/.34rem "";}
+#promise ul li span{color:#989898;font:.18rem/.34rem "";}
+
+
+/* 优势 */
+#friendLink{border:0;}
+#advantage{background: #f5f5f5;border-top:.02rem solid #e7e7e7;}
+#advantage ul{height: 1.36rem;}
+#advantage ul li{float: left;width: 1.98rem;height: 1.36rem;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+#advantage ul li i{display: block;width: .55rem;height: .55rem;background:url(../images/tz1.png) no-repeat;background-size: .55rem 3.3rem;}
+#advantage ul li:nth-child(2) i{background-position: 0 -.55rem;}
+#advantage ul li:nth-child(3) i{background-position: 0 -1.1rem;}
+#advantage ul li:nth-child(4) i{background-position: 0 -1.65rem;}
+#advantage ul li:nth-child(5) i{background-position: 0 -2.2rem;}
+#advantage ul li:nth-child(6) i{background-position: 0 -2.75rem;}
+#advantage ul li p{font:.12rem/.22rem "";color:#454545;}
+#advantage ul li span{font:.12rem/.2rem "";color:#999;}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style type="text/css">
+        table img{width: 100px;height: 100px;}
+        em{display: block;width: 120px;line-height: 30px;color: #fff;background: dodgerblue;margin: 10px auto;text-align: center;border-radius: 6px;}
+        .box{width: 700px;margin: 10px auto;height: 40px}
+        .box .sum{float: left;font: 20px/2 "";margin: 0 20px;}
+        .box .sum b{display:block;float: left;}
+        .box .sum span{display:block;float: left;}
+        .box .clear{float: right;width: 150px;height: 30px;background: royalblue;border-radius: 5px;color: #fff;margin: 5px 20px;text-align: center;font:20px/30px "";cursor: pointer;}
+    </style>
+</head>
+<body>
+    <!-- 顶部 -->
+    <section id="top">
+        <div class="margin">
+            <div class="top-l">
+                <i>您好，欢迎来到</i>
+                <a href="index.html">阳光商城</a>
+                <s>[</s>
+                <a href="login.html" class="te">登陆</a>
+                <s>]</s>
+                <s>[</s>
+                <a href="register.html">注册</a>
+                <s>]</s>
+            </div>
+            <ul>
+                <li><span>免费开店</span><img src="images/top-1.png" alt=""></li>
+                <li><span>我的订单</span><img src="images/top-1.png" alt=""></li>
+                <li class="car"><span>我的购物车</span><img src="images/top-1.png" alt=""></li>
+                <li><span>我的收藏</span><img src="images/top-1.png" alt=""></li>
+                <li><span>帮助中心</span><img src="images/top-1.png" alt=""></li>
+                <li><span>关注我们</span><img src="images/top-1.png" alt=""></li>
+                <li><span>手机版</span><img src="images/top-1.png" alt=""></li>
+            </ul>
+        </div>
+    </section>
+
+     <!-- 头部 -->
+     <header>
+        <div class="margin">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+        </div>
+    </header>
+
+    <!-- 购物车列表 -->
+    <table class="margin">
+        <thead>
+            <tr>
+                <th>图片</th>
+                <th>名字</th>
+                <th>价格</th>
+                <th>数量</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <!-- <tr>
+                <td><img src=""/></td>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+                <td><em>删除</em></td>
+            </tr> -->
+        </tbody>
+    </table>
+    <div class="box">
+        <div class="sum">
+            <b>合计：</b>
+            <span></span>
+        </div>
+        <div class="clear">清空购物车</div>
+    </div>
+
+
+
+
+
+    <!-- 友情链接 -->
+    <section id="friendLink">
+        <div class="margin">
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a href="#">如何注册成为会员</a></dd>
+                <dd><a href="#">积分说明</a></dd>
+                <dd><a href="#">积分兑换说明</a></dd>
+                <dd><a href="#">宝贝打开提示已经下架或者转移是什么原因？</a></dd>
+                <dd><a href="#">隐私政策</a></dd>
+            </dl>
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a href="#">在线支付</a></dd>
+            </dl>
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a href="#">联系客服</a></dd>
+                <dd><a href="#">正品质量保证</a></dd>
+            </dl>
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a href="#">退换货流程</a></dd>
+                <dd><a href="#">退换货声明</a></dd>
+                <dd><a href="#">退换货政策</a></dd>
+                <dd><a href="#">退款申请</a></dd>
+            </dl>
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a href="#">关于我们</a></dd>
+                <dd><a href="#">联系我们</a></dd>
+                <dd><a href="#">招聘英才</a></dd>
+            </dl>
+            <dl class="contact">
+                <dt>北京天骅有限公司</dt>
+                <dd><span>电话咨询：</span><i>40000-90192</i></dd>
+                <dd><span>公司地址：</span><i>北京市丰台区花乡纪家庙一号院阳光社区</i></dd>
+                <dd><span>公司电话：</span><i>010-5114 3608</i></dd>
+                <dd><span>邮&nbsp;&nbsp;箱：</span><i>40000-90192</i></dd>
+                <dd><span>京ICP备13005249号-19</span></dd>
+                <dd><a href="http://www.sunas.cn/images/1812101146.jpg">营业执照</a></dd>
+            </dl>
+        </div>
+    </section>
+
+
+    <!-- 底部 -->
+    <footer>
+        <div class="margin">
+            <div class="link">
+                <a href="http://www.eeok.cn/">阳光商城</a><span>|</span>
+                <a href="http://www.ai5z.com/">淘宝优惠券</a><span>|</span>
+                <a href="https://www.taobao.com">淘宝</a><span>|</span>
+                <a href="https://www.tmall.hk/">天猫国际</a><span>|</span>
+                <a href="https://www.jd.com/">京东商城</a><span>|</span>
+                <a href="https://www.vip.com/">唯品会最低折扣</a><span>|</span>
+                <a href="https://www.mogujie.com/">蘑菇街</a><span>|</span>
+                <a href="https://www.xiaohongshu.com/">小红书APP</a><span>|</span>
+                <a href="http://www.chaozhegou.com/">超折购</a><span>|</span>
+                <a href="http://www.1shuadan.com/">电商代运营</a><span>|</span>
+                <a href="https://www.suning.com/">苏宁易购</a><span>|</span>
+                <a href="https://www.kaola.com/">网易考拉</a><span>|</span>
+                <a href="http://www.taoguqu.com/">淘古趣</a><span>|</span>
+                <a href="http://www.891world.com/">跨境购</a><span>|</span>
+                <a href="https://www.taopujia.com/">淘宝店转让</a><span>|</span>
+                <a href="http://xiangtuzhengpin.com/">乡土正品</a><span>|</span>
+                <a href="http://www.1shuadan.com/">美团美食购</a><span>|</span>
+                <a href="https://www.ele.me/home/">饿了吗</a><span>|</span>
+                <a href="http://www.sevnton.com/">跨境电商</a><span>|</span>
+                <a href="http://www.359mai.com/">购物网站大全</a><span>|</span>
+            </div>
+            <div class="footer">
+                <p class="p1">
+                    <a href="index.html">首页</a><span>|</span>
+                    <a href="index.html">招聘英才</a><span>|</span>
+                    <a href="index.html">联系我们</a><span>|</span>
+                    <a href="index.html">关于我们</a><span>|</span>
+                    <a href="index.html">企业官网</a><span>|</span>
+                    <a href="index.html">网站地图</a><span>|</span>
+                    <a href="index.html">隐私政策</a>
+                </p>
+                <p class="p2">增值电信业务经营许可证京B2-20170742<span>|</span>京食药网食备201820014</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/ajax.2.0.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/car.js"></script>
+</html>
