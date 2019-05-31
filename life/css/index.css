@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/*优惠*/
+#discount {
+  height: 175px; }
+  #discount a {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 175px; }
+    #discount a img {
+      display: block; }
+
+/*推荐*/
+#recommend {
+  height: 266px; }
+  #recommend .recommend-r {
+    float: right;
+    width: 177px;
+    height: 266px;
+    border: 2px solid #91be16;
+    box-sizing: border-box;
+    margin-top: 20px; }
+    #recommend .recommend-r h3 {
+      text-align: center;
+      font: 18px/46px "";
+      margin-top: 7px; }
+    #recommend .recommend-r a {
+      text-align: center;
+      font: 12px/28px "";
+      color: #626262;
+      display: block; }
+    #recommend .recommend-r a:hover {
+      color: #ff6900;
+      text-decoration: underline; }
+    #recommend .recommend-r img {
+      display: block;
+      width: 173px;
+      margin-top: 14px; }
+  #recommend ul {
+    background: #f8f8f6;
+    margin: 20px 0;
+    float: left; }
+  #recommend li {
+    float: left;
+    width: 177px;
+    border-right: 1px solid #eee;
+    background: #fff;
+    box-sizing: border-box;
+    padding: 25px 20px 0 20px;
+    height: 266px;
+    border-top: 1px solid #91be16;
+    border-bottom: 1px solid #91be16; }
+    #recommend li img {
+      width: 128px;
+      height: 120px;
+      display: block;
+      margin-bottom: 34px; }
+    #recommend li span {
+      display: block;
+      overflow: hidden;
+      font-size: 14px;
+      color: #333;
+      height: 14px; }
+    #recommend li b {
+      display: block;
+      overflow: hidden;
+      font: 12px/2 "";
+      color: #898989;
+      height: 24px; }
+    #recommend li s {
+      display: block;
+      color: #ff6900;
+      font-size: 14px;
+      margin-top: 10px; }
+  #recommend li:nth-child(1) {
+    width: 125px;
+    background: #f8f8f6;
+    padding: 0;
+    border: none; }
+    #recommend li:nth-child(1) span {
+      width: 125px;
+      height: 44px;
+      font: 14px/44px "";
+      text-align: center;
+      color: #626252; }
+    #recommend li:nth-child(1) span.active {
+      border-left: 4px solid #91be16;
+      border-top: 1px solid #91be16;
+      border-bottom: 1px solid #91be16; }
+  #recommend li:nth-child(6) {
+    border-right: 1px solid #91be16; }
+  #recommend li:nth-child(2) {
+    border-left: 1px solid #91be16; }
